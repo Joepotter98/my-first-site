@@ -5,6 +5,12 @@ p {
 }
 
 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.responsive-image {
   width: 100%;
   height: auto;
 }
@@ -17,4 +23,29 @@ img {
   display: flex;
   gap: 16px;
   align-items: center;
+}
+
+.section {
+  background: #e0e0e0;
+  border: solid 1px red;
+  padding: 12px;
+  margin-bottom: 24px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-nav {
+  display: flex;
+  gap: 16px;
+}
+
+.main-nav-item {
+  display: block;
+  color: black;
+  text-decoration: initial;
+}
+
+.main-nav-item:hover {
+  color: peru;
 }
